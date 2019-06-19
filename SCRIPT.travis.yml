@@ -3,5 +3,4 @@ python:
   - "3.7"
 
 script:
-  - python -V
   - python hello-world.py
