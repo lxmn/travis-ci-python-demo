@@ -4,5 +4,4 @@ python:
 
 script:
   - python -V
-  - echo $message
-  - python hello-world-var.py
+  - python hello-world.py
