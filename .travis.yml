@@ -2,7 +2,10 @@ language: python
 python:
   - "3.7"
 
-script:
-  - python -V
+# command to install dependencies
+install:
   - pip install -r requirements.txt
+
+# command to run tests
+script:
   - python hello-world-requirements.py
