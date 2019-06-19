@@ -4,5 +4,5 @@ python:
 
 script:
   - python -V
-  - echo $message
-  - python hello-world-var.py
+  - pip install -r requirements.txt
+  - python hello-world-requirements.py
