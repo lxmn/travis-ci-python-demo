@@ -3,4 +3,5 @@ python:
   - "3.7"
 
 script:
-  - python -V
+  - echo $message
+  - python hello-world-var.py
